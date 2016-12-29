@@ -1,0 +1,35 @@
+{
+	"name" : "php-platform/mock-config",
+	"type" : "library",
+	"keywords" : [
+		"php-platform",
+		"config",
+		"settings",
+		"mock"
+	],
+	"homepage" : "https://github.com/PHPPlatform/mock-config",
+	"authors" : [{
+			"name" : "Raghavendra K R",
+			"email" : "raaghu1987@gmail.com",
+			"homepage" : "http://krraghavendra.in",
+			"role" : "Software Developer"
+		}
+	],
+	"require" : {
+		"php" : "~5.3",
+		"php-platform/config" : "~0.1"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "~4.5"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"PhpPlatform\\" : "src/"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"PhpPlatform\\tests\\" : "tests/"
+		}
+	}
+}
