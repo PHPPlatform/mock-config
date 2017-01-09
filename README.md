@@ -1,6 +1,8 @@
 # PHP Platform Configuration mocking
 This package provides APIs to mock the configuration APIs provided by [PHPPlatform/config][PHPPlatformConfig]
 
+[![Build Status](https://travis-ci.org/PHPPlatform/mock-config.svg?branch=v0.1)](https://travis-ci.org/PHPPlatform/mock-config)
+
 > IMPORTANT NOTE!     This package should be used only for developmental purposes and only as [require-dev][ComposerRequireDev] dependency
 
 
