@@ -16,11 +16,11 @@
 		}
 	],
 	"require" : {
-		"php" : "~5.3",
+		"php" : ">=5.3",
 		"php-platform/config" : "~0.1"
 	},
 	"require-dev" : {
-		"phpunit/phpunit" : "~4.5"
+		"phpunit/phpunit" : "~4.8"
 	},
 	"autoload" : {
 		"psr-4" : {
