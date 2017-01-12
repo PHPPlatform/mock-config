@@ -4,27 +4,28 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "335353258567e2b86aa10b6fe169797d",
+    "content-hash": "64dddf0163dd6f5d927db21d3c4ba98e",
     "packages": [
         {
             "name": "php-platform/config",
-            "version": "v0.1.0",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPPlatform/config.git",
-                "reference": "4e15aa30830820fe9c73942306b3a8acc4bdbeb5"
+                "reference": "df0d504d9a1c5d83cc596317ab7be7a99ba518fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPPlatform/config/zipball/4e15aa30830820fe9c73942306b3a8acc4bdbeb5",
-                "reference": "4e15aa30830820fe9c73942306b3a8acc4bdbeb5",
+                "url": "https://api.github.com/repos/PHPPlatform/config/zipball/df0d504d9a1c5d83cc596317ab7be7a99ba518fc",
+                "reference": "df0d504d9a1c5d83cc596317ab7be7a99ba518fc",
                 "shasum": ""
             },
             "require": {
-                "php": "~5.3"
+                "php": ">=5.3",
+                "php-platform/json-cache": "~0.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.5"
+                "phpunit/phpunit": "~4.8"
             },
             "type": "library",
             "autoload": {
@@ -36,7 +37,7 @@
             "authors": [
                 {
                     "name": "Raghavendra K R",
-                    "email": "raaghu1987@gmail.com",
+                    "email": "krraghavendra@yahoo.co.in",
                     "homepage": "http://krraghavendra.in",
                     "role": "Software Developer"
                 }
@@ -47,7 +48,52 @@
                 "config",
                 "php-platform"
             ],
-            "time": "2016-12-27T15:29:32+00:00"
+            "time": "2017-01-12T05:06:30+00:00"
+        },
+        {
+            "name": "php-platform/json-cache",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPPlatform/json-cache.git",
+                "reference": "896cd70c02c2267b353180944bbe6d3d7085385d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPPlatform/json-cache/zipball/896cd70c02c2267b353180944bbe6d3d7085385d",
+                "reference": "896cd70c02c2267b353180944bbe6d3d7085385d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpPlatform\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Raghavendra K R",
+                    "email": "krraghavendra@yahoo.co.in",
+                    "homepage": "http://krraghavendra.in",
+                    "role": "Software Developer"
+                }
+            ],
+            "homepage": "https://github.com/PHPPlatform/json-cache",
+            "keywords": [
+                "cache",
+                "caching",
+                "json",
+                "metadata",
+                "php-platform"
+            ],
+            "time": "2017-01-11T12:35:59+00:00"
         }
     ],
     "packages-dev": [
@@ -1169,7 +1215,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "~5.3"
+        "php": ">=5.3"
     },
     "platform-dev": []
 }

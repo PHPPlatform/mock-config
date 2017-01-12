@@ -30,7 +30,7 @@ class MockSettings extends Settings{
     	
     	$settingsCache = SettingsCache::getInstance();
     	
-    	$settingsCacheReflection = new \ReflectionClass(get_class($settingsCache));
+    	$settingsCacheReflection = new \ReflectionClass(get_parent_class($settingsCache));
     	$settingsCacheReflectionProperty = $settingsCacheReflection->getProperty("settings");
     	$settingsCacheReflectionProperty->setAccessible(true);
     	
