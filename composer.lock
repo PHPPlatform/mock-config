@@ -52,16 +52,16 @@
         },
         {
             "name": "php-platform/json-cache",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPPlatform/json-cache.git",
-                "reference": "896cd70c02c2267b353180944bbe6d3d7085385d"
+                "reference": "0c6621fda8247c4720a74fbc9fdf42c4bb68cb1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPPlatform/json-cache/zipball/896cd70c02c2267b353180944bbe6d3d7085385d",
-                "reference": "896cd70c02c2267b353180944bbe6d3d7085385d",
+                "url": "https://api.github.com/repos/PHPPlatform/json-cache/zipball/0c6621fda8247c4720a74fbc9fdf42c4bb68cb1f",
+                "reference": "0c6621fda8247c4720a74fbc9fdf42c4bb68cb1f",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +93,7 @@
                 "metadata",
                 "php-platform"
             ],
-            "time": "2017-01-11T12:35:59+00:00"
+            "time": "2017-01-19T14:15:38+00:00"
         }
     ],
     "packages-dev": [
@@ -1105,16 +1105,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.2.1",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "a7095af4b97a0955f85c8989106c249fa649011f"
+                "reference": "50eadbd7926e31842893c957eca362b21592a97d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/a7095af4b97a0955f85c8989106c249fa649011f",
-                "reference": "a7095af4b97a0955f85c8989106c249fa649011f",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/50eadbd7926e31842893c957eca362b21592a97d",
+                "reference": "50eadbd7926e31842893c957eca362b21592a97d",
                 "shasum": ""
             },
             "require": {
@@ -1156,7 +1156,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-12-10T10:07:06+00:00"
+            "time": "2017-01-03T13:51:32+00:00"
         },
         {
             "name": "webmozart/assert",

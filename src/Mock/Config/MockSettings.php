@@ -30,11 +30,7 @@ class MockSettings extends Settings{
     	
     	$settingsCache = SettingsCache::getInstance();
     	
-    	$settingsCacheReflection = new \ReflectionClass(get_parent_class($settingsCache));
-    	$settingsCacheReflectionProperty = $settingsCacheReflection->getProperty("settings");
-    	$settingsCacheReflectionProperty->setAccessible(true);
-    	
-    	$currentSettings = $settingsCacheReflectionProperty->getValue($settingsCache);
+    	$currentSettings = $settingsCache->getData("");
     	
     	$currentSettingsForProvidedPath = &$currentSettings;
     	foreach ($settingPaths as $settingPath_){
@@ -46,7 +42,7 @@ class MockSettings extends Settings{
     	
     	$currentSettingsForProvidedPath = $settingValue;
     	
-    	$settingsCacheReflectionProperty->setValue($settingsCache, $currentSettings);
+    	$settingsCache->setData($currentSettings);
 
     }
     	
